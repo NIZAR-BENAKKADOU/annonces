@@ -1,0 +1,16 @@
+**Commandes de file d'attente** :
+- `queue:batches-table` : crée une migration pour la base de données de lots.
+- `queue:clear` : supprime tous les travaux de la file d'attente spécifiée.
+- `queue:failed` : répertorie tous les travaux de file d'attente ayant échoué.
+- `queue:failed-table` : crée une migration pour le travail de file d'attente ayant échoué.
+- `queue:flush` : vide tous les travaux de file d'attente ayant échoué.
+- `queue:forget` : supprime un travail de file d'attente ayant échoué.
+- `queue:listen` : Écoute une file d'attente donnée.
+- `queue:monitor` : surveille la taille des files d'attente spécifiées.
+- `queue:prune-batches` : élague les entrées périmées de la base de données des lots.
+- `queue:prune-failed` : supprime les entrées obsolètes de la table des tâches ayant échoué.
+- `queue:restart` : redémarre les démons de file d'attente après leur travail en cours.
+- `queue:retry` : réessaye un travail de file d'attente ayant échoué.
+- `queue:retry-batch` : réessaye les tâches ayant échoué pour un lot.
+- `queue:table` : crée une migration pour la base de données des tâches de file d'attente.
+- `queue:work` : démarre le traitement des tâches dans la file d'attente en tant que démon.
