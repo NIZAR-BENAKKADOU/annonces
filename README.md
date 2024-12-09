@@ -1,3 +1,46 @@
+# Laravel Project: Annonces Management System
+
+## Overview
+This project is a Laravel-based application designed for managing annonces (announcements). It provides a robust structure for creating, reading, updating, and deleting (CRUD) operations with an elegant UI.
+
+## Features
+- User authentication and authorization.
+- CRUD operations for annonces.
+- Responsive design using Blade templates.
+- Database migrations and seeders for structured data management.
+
+## Folder Structure
+### 1. `app/`
+- **Controllers**: Contains controllers like `AnnonceController.php` for handling HTTP requests.
+- **Middleware**: Manages HTTP request filtering.
+- **Requests**: Custom request classes for validating inputs.
+- **Models**: Represents database entities.
+
+### 2. `database/`
+- **Factories**: Generates dummy data for testing.
+- **Migrations**: Manages database schema.
+- **Seeders**: Seeds the database with initial data.
+
+### 3. `resources/`
+- **Views**: Blade templates for the frontend.
+  - `create.blade.php`: Form to create a new annonce.
+  - `edit.blade.php`: Form to edit an existing annonce.
+  - `index.blade.php`: Lists all annonces.
+  - `show.blade.php`: Displays a single annonce.
+  - `master.blade.php`: Main layout file.
+  - `welcome.blade.php`: Default homepage.
+
+### 4. `routes/`
+- **web.php**: Defines web routes for the application.
+
+### 5. `public/`
+- Contains assets like CSS, JS, and images.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
